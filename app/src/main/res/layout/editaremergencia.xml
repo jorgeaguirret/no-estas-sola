@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+
+    tools:context=".RegistrarPrincipal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mis contactos de emergencia"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:layout_marginTop="20sp"
+        android:textColor="@color/white"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tu mensaje llegara a los siguientes contactos"
+        android:layout_gravity="center"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/tvContacto1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:text="Contacto N°1"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvNombre1"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:layout_marginLeft="20dp"
+            android:text="Nombre:" />
+
+        <EditText
+            android:id="@+id/EdiNombre1"
+            android:layout_width="235dp"
+            android:layout_height="wrap_content"
+            android:hint="Nombre"
+            android:inputType="text"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvApellido1"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:layout_marginLeft="20dp"
+            android:text="Apellidos:" />
+
+        <EditText
+            android:id="@+id/EdiApellido1"
+            android:layout_width="235dp"
+            android:layout_height="wrap_content"
+            android:hint="Apellidos"
+            android:inputType="text"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvFono1"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:layout_marginLeft="20dp"
+            android:text="Fono:" />
+
+        <EditText
+            android:id="@+id/EdiFono1"
+            android:layout_width="235dp"
+            android:layout_height="wrap_content"
+            android:hint="Fono"
+            android:inputType="number"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="18dp"
+
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvContacto2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:text="Contacto N°2"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvNombre2"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:layout_marginLeft="20dp"
+            android:text="Nombre:" />
+
+        <EditText
+            android:id="@+id/EdiNombre2"
+            android:layout_width="234dp"
+            android:layout_height="wrap_content"
+            android:hint="Nombre"
+            android:inputType="text"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvApellido2"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:layout_marginLeft="20dp"
+            android:text="Apellidos:" />
+
+        <EditText
+            android:id="@+id/EdiApellido2"
+            android:layout_width="234dp"
+            android:layout_height="wrap_content"
+            android:hint="Apellidos"
+            android:inputType="text"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvFono2"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:layout_marginLeft="20dp"
+            android:text="Fono:" />
+
+        <EditText
+            android:id="@+id/EdiFono2"
+            android:layout_width="234dp"
+            android:layout_height="wrap_content"
+            android:hint="Fono"
+            android:inputType="number"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvContacto3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:text="Contacto N°3"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvNombre3"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:layout_marginLeft="20dp"
+            android:text="Nombre:" />
+
+        <EditText
+            android:id="@+id/EdiNombre3"
+            android:layout_width="232dp"
+            android:layout_height="wrap_content"
+            android:hint="Nombre"
+            android:inputType="text"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvApellido3"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:layout_marginLeft="20dp"
+            android:text="Apellidos:" />
+
+        <EditText
+            android:id="@+id/EdiApellido3"
+            android:layout_width="232dp"
+            android:layout_height="wrap_content"
+            android:hint="Apellidos"
+            android:inputType="text"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvFono3"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:layout_marginLeft="20dp"
+            android:text="Fono:" />
+
+        <EditText
+            android:id="@+id/EdiFono3"
+            android:layout_width="232dp"
+            android:layout_height="wrap_content"
+            android:hint="Fono3"
+            android:inputType="number"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnEdiActualizar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="40dp"
+            android:text="    Editar   "
+            android:textSize="23sp" />
+
+        <Button
+            android:id="@+id/btnEdiCancelar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="40dp"
+            android:text="Cancelar"
+            android:textSize="23sp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

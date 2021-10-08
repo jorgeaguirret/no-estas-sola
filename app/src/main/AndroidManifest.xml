@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.noestassola">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".RegistrarCirculoCercano"
+            android:exported="true" />
+        <activity android:name=".EditarEmergencia" />
+        <activity android:name=".RegistrarEmergencia" />
+        <activity android:name=".Emergencias" />
+        <activity android:name=".Amigos" />
+        <activity android:name=".Main" />
+        <activity android:name=".Editar" />
+        <activity android:name=".Mostrar" />
+        <activity android:name=".Inicio" />
+        <activity android:name=".RegistrarPrincipal" />
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

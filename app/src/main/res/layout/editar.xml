@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+
+    tools:context=".RegistrarPrincipal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mi perfil"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:layout_marginTop="20sp"
+        android:textColor="@color/white"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvNombre1"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="Usuario :"
+            android:layout_marginLeft="20dp"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/EdiUser"
+            android:layout_width="243dp"
+            android:layout_height="wrap_content"
+            android:hint="Nombre de Usuario"
+            android:inputType="text"
+            android:textColor="@color/white"
+            android:enabled="false"
+            android:textColorHint="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvPass"
+            android:layout_width="110dp"
+            android:textSize="18dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:text="Contraseña :" />
+
+        <EditText
+            android:id="@+id/EdiPass"
+            android:layout_width="243dp"
+            android:layout_height="wrap_content"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvNombre"
+            android:layout_width="110dp"
+            android:textSize="18dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:text="  Nombre :" />
+
+        <EditText
+            android:id="@+id/EdiNombre"
+            android:layout_width="242dp"
+            android:layout_height="wrap_content"
+            android:hint="Nombre"
+            android:inputType="text"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvApellido"
+            android:layout_width="110dp"
+            android:textSize="18dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:text="  Apellido :" />
+
+        <EditText
+            android:id="@+id/EdiApellido"
+            android:layout_width="242dp"
+            android:layout_height="wrap_content"
+            android:hint="Apellido"
+            android:inputType="text"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="110dp"
+            android:textSize="18dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:text="  Email :" />
+
+        <EditText
+            android:id="@+id/EdiEmail"
+            android:layout_width="242dp"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="text"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvFono"
+            android:layout_width="110dp"
+            android:textSize="18dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:text="  Fono :" />
+
+        <EditText
+            android:id="@+id/EdiFono"
+            android:layout_width="242dp"
+            android:layout_height="wrap_content"
+            android:hint="Fono"
+            android:inputType="number"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvDireccion"
+            android:layout_width="110dp"
+            android:textSize="18dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:text="  Dirección :" />
+
+        <EditText
+            android:id="@+id/EdiDireccion"
+            android:layout_width="242dp"
+            android:layout_height="wrap_content"
+            android:hint="Dirección"
+            android:inputType="text"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvComuna"
+            android:layout_width="110dp"
+            android:textSize="18dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:text="  Comuna :" />
+
+        <EditText
+            android:id="@+id/EdiComuna"
+            android:layout_width="242dp"
+            android:layout_height="wrap_content"
+            android:hint="Comuna"
+            android:inputType="text"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="124dp"
+        android:layout_height="116dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/logo" />
+
+    <Button
+        android:id="@+id/btnEdiActualizar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="23sp"
+        android:text="Editar Perfil"
+        android:layout_gravity="center"
+        />
+    <Button
+        android:id="@+id/btnEdiCancelar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="23sp"
+        android:text="Cancelar"
+        android:layout_gravity="center"
+        />
+
+
+</LinearLayout>

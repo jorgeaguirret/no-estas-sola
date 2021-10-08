@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Jorge/AndroidStudioProjects/Noestassola/app/src/main/res/layout/amigos.xml" value="0.1" />
+        <entry key="..\:/Users/Jorge/AndroidStudioProjects/Noestassola/app/src/main/res/layout/inicio.xml" value="0.264" />
+        <entry key="..\:/Users/Jorge/AndroidStudioProjects/Noestassola/app/src/main/res/layout/main.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/Jorge/AndroidStudioProjects/Noestassola/app/src/main/res/layout/mostrar.xml" value="0.1" />
+        <entry key="..\:/Users/Jorge/AndroidStudioProjects/Noestassola/app/src/main/res/layout/registrar_circulo_cercano.xml" value="0.264" />
+        <entry key="..\:/Users/Jorge/AndroidStudioProjects/Noestassola/app/src/main/res/layout/registraremergencia.xml" value="0.1" />
+        <entry key="..\:/Users/Jorge/AndroidStudioProjects/Noestassola/app/src/main/res/layout/registrarprincipal.xml" value="0.14035087719298245" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
